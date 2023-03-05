@@ -1,0 +1,183 @@
+#top {
+    padding: 1.31vw;
+    font-size: 4vw;
+    font-family: 'OsWald', sans-serif;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  #minilink {
+    margin-left: -20vw;
+    margin-right: -19vw;
+    font-size: 2vw;
+    font-style: italic;
+    font-family: 'Source Serif Pro', serif, bold;
+  }
+  
+  body {
+    background: linear-gradient(to top, #ffffffba, #a5a5a8cc), url("../bg.jpeg") repeat;
+    overflow-x: hidden;
+  }
+  
+  /*DECLARACION ENLACES*/
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: transparent;
+    color: #0c0606b0;
+  }
+  
+  a:hover:after {
+    color: transparent;
+  }
+  
+  /*FIN DECLARACION ENLACES*/
+  /*DECLARACION SECTION*/
+  .section_title {
+    margin-top: -3vw;
+    margin-left: -2.5vw;
+    font-style: italic;
+  }
+  
+  .section_text {
+    margin-left: -3vw;
+    margin-right: -3vw;
+    /*HAY QUE EMPLEAR EL CANAL ALFA PARA CONSEGUIR LA OPACIDAD PARA EL FONDO PERO NO PARA EL TEXTO.*/
+    background-color: rgba(255, 255, 255, 0.65);
+    font-size: 2vw;
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+    padding: 10vw;
+    color: rgb(0, 0, 0);
+  }
+  
+  .section {
+    margin-top: 8vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.75vw;
+  }
+  
+  /*FIN DECLARACIÓN SECTION*/
+  /*RELACIONADO CON TABLAS, RESPONSIVAS*/
+  table {
+    border-collapse: separate;
+    border-color: #ffffff53;
+    border-radius: 8px;
+    margin-top: 3vw;
+    width: 100%;
+    height: auto;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  td {
+    /*DOTAR DE MAS ESPACIO ENTRE LOS ELEMENTOS DE LA TABLA*/
+    padding: 4vw;
+    text-align: center;
+    font-size: 1.75vw;
+    text-shadow: 1px 1px 1px rgb(124, 124, 124);
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  th {
+    font-size: 3vw;
+    color: white;
+    text-shadow: 3.5px 3.5px 3.5px rgb(127, 123, 123);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    background-color: #00000053;
+    ;
+    text-align: center;
+    font-size: 2vw;
+  }
+  
+  th:first-of-type {
+    border-top-left-radius: 12px;
+  }
+  
+  th:last-of-type {
+    border-top-right-radius: 12px;
+  }
+  
+  tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 12px;
+  }
+  
+  tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 12px;
+  }
+  
+  /*FIN TABLA RESPONSIVA*/
+  /*MEDIA SETTINGS*/
+  .media {
+    width: 100%;
+    height: auto;
+  }
+  
+  .player {
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+  }
+  
+  /*FIN MEDIA SETTINGS*/
+  /*TECNOLOGIAS*/
+  .subsection_title {
+    font-family: 'PT Sans Caption', sans-serif;
+    ;
+    margin-top: 2vw;
+    font-size: 2vw;
+  }
+  
+  #imaginadas_resize {
+    margin-top: 4vw;
+  }
+  
+  .subsection_text {
+    overflow-x: hidden;
+    padding: 10vw;
+    margin-top: 2vw;
+    margin-left: -3vw;
+    margin-right: -3vw;
+    padding: 4.5vw;
+    /*HAY QUE EMPLEAR EL CANAL ALFA PARA CONSEGUIR LA OPACIDAD PARA EL FONDO PERO NO PARA EL TEXTO.*/
+    background-color: #eaeaeaa6;
+    font-size: 2vw;
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  /*END TECNOLOGIA*/
+  /*IMPACTO*/
+  #impacto_title {
+    margin-block-start: 5vw;
+  }
+  
+  #lista_desordenada {
+    margin-right: -3vw;
+    margin-left: -7vw;
+    margin-block-start: 10vw;
+    padding: 15vw;
+  }
+  
+  /*END IMPACTO*/
+  /*REFERENCIAS SETTINGS*/
+  #Referencias {
+    margin-block-start: 20vw;
+  }
+  
+  #refs_list {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 6vw;
+    margin-bottom: -10vw;
+    margin-left: -3vw;
+    margin-right: -3vw;
+    font-style: italic;
+    font-size: 2vw;
+    text-align: justify;
+  }
