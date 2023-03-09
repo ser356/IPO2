@@ -1,3 +1,21 @@
+
+# Table of contents
+
+- [INTERACCION PERSONA ORDENADOR](#interaccion-persona-ordenador)
+  - [Introducción](#introducción)
+  - [Primeros Pasos](#primeros-pasos)
+  - [Hojas de estilos](#hojas-de-estilos)
+  - [Aspectos Comunes](#aspectos-comunes)
+  - [Google Fonts](#google-fonts)
+  - [Modo Defecto](#default-blue-palette)
+  - [Modo Oscuro](#dark-modo-oscuro)
+  - [Modo Light](#light-modo-claro)
+  - [Cambio Dinámico de Estilos](#cambio-dinámico-de-estilos)
+  - [Responsividad](#responsividad)
+    - [Escritorio](#escritorio)
+    - [Móviles](#smartphones)
+  - [Conclusiones](#conclusiones)
+
 # INTERACCION PERSONA ORDENADOR
 
 ## Introducción
@@ -13,13 +31,12 @@ El primer paso a realizar ha sido realizar una modificación del documento HTML 
 \
 Imagen antes y después de pasar por el validador:
 
-<img src="./RES/caps/html.png"  width=60% height=50%>
+<img src="./RES/caps/html.png"  width=58% height=50%>
 
 <img src="./RES/caps/mihtml.png" width=60% height=50%>
 
 \
 Imagen de los estilos validados:
-
 
  <img src="./RES/caps/micss.png" width=50% height=50%>
  <img src="./RES/caps/micss2.png" style="float: right" width=50% height=50%>
@@ -432,13 +449,13 @@ A continuación se muestran imágenes de las tres plantillas vistas desde un ord
 <img src="./RES/caps/desktop (12).png" style="float: right" width=50% height=50%>
 <img src="./RES/caps/desktop (13).png" width=50% height=50%>
 
-### Móviles
+### Smartphones
 
 A continuación se muestran imágenes de las tres plantillas simuladas en un dispositivo móvil:
 
 <img style="float: right" src="./RES/caps/mobile (1).png" width=50% height=50%>
 <img src="./RES/caps/mobile (2).png" width=50% height=50%>
-<img style="float: left" src="./RES/caps/mobile (3).png" width=50% height=50%>
+<img  src="./RES/caps/mobile (3).png" width=50% height=50%>
 
 Como se puede observar, se mantiene el estilo responsive.
 
