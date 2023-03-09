@@ -26,16 +26,16 @@ Se propone como solución tres stylesheets CSS junto a un pequeño script JS cuy
 
 ## Primeros Pasos
 
-El primer paso a realizar ha sido realizar una modificación del documento HTML dado para por una parte validarlo y por otra parte adaptarlo de cierta forma a la plantilla que se nos proponia en el documento Word.\La siguiente imagen muestra la verificación del CSS y del HTML.
+El primer paso a realizar ha sido realizar una modificación del documento HTML dado para por una parte validarlo y por otra parte adaptarlo de cierta forma a la plantilla que se nos proponia en el documento Word. La siguiente imagen muestra la verificación del CSS y del HTML.
 
-\
+
 Imagen antes y después de pasar por el validador:
 
 <img src="./RES/caps/html.png"  width=58% height=50%>
 
 <img src="./RES/caps/mihtml.png" width=60% height=50%>
 
-\
+
 Imagen de los estilos validados:
 
  <img src="./RES/caps/micss.png" width=50% height=50%>
