@@ -1,12 +1,14 @@
 #top {
-    padding: 1.31vw;
-    font-size: 4vw;
-    font-family: 'OsWald', sans-serif;
-    font-style: normal;
-    text-align: center;
-  }
+  padding: 1vw;
+  font-size: 4vw;
+  font-family: 'OsWald', sans-serif;
+  font-style: normal;
   
-  #minilink {
+   
+}
+
+  
+  .minilink {
     margin-left: -20vw;
     margin-right: -19vw;
     font-size: 2vw;
@@ -38,7 +40,7 @@
   /*DECLARACION SECTION*/
   .section_title {
     margin-top: -3vw;
-    margin-left: -2.5vw;
+   
     font-style: italic;
   }
   
@@ -131,9 +133,6 @@
     font-size: 2vw;
   }
   
-  #imaginadas_resize {
-    margin-top: 4vw;
-  }
   
   .subsection_text {
     overflow-x: hidden;
@@ -158,13 +157,14 @@
   #lista_desordenada {
     margin-right: -3vw;
     margin-left: -7vw;
-    margin-block-start: 10vw;
-    padding: 15vw;
+    margin-block-start: 1vw;
+    padding: 10vw;
   }
   
   /*END IMPACTO*/
   /*REFERENCIAS SETTINGS*/
   #Referencias {
+    margin-left: -2vw;
     margin-block-start: 20vw;
   }
   
@@ -172,7 +172,7 @@
     background-color: rgba(20, 20, 25, 0.65);
     padding: 6vw;
     margin-bottom: -10vw;
-    margin-left: -3vw;
+    
     margin-right: -3vw;
     font-style: italic;
     font-size: 2vw;

@@ -1,18 +1,21 @@
 #top {
-    padding: 1.31vw;
+    padding: 1vw;
     font-size: 4vw;
     font-family: 'OsWald', sans-serif;
     font-style: normal;
-    text-align: center;
+    
+     
   }
   
-  #minilink {
+  .minilink {
     margin-left: -20vw;
     margin-right: -19vw;
     font-size: 2vw;
     font-style: italic;
     font-family: 'Source Serif Pro', serif;
   }
+
+ 
   
   body {
     background: linear-gradient(to top, #5731ffba, #00047ecc), url("../bg.jpeg") repeat;
@@ -38,7 +41,7 @@
   /*DECLARACION SECTION*/
   .section_title {
     margin-top: -3vw;
-    margin-left: -2.5vw;
+    
     font-style: italic;
   }
   
@@ -129,9 +132,6 @@
     font-size: 2vw;
   }
   
-  #imaginadas_resize {
-    margin-top: 4vw;
-  }
   
   .subsection_text {
     overflow-x: hidden;
@@ -150,19 +150,20 @@
   /*END TECNOLOGIA*/
   /*IMPACTO*/
   #impacto_title {
-    margin-block-start: 5vw;
+    margin-block-start: 0.5vw;
+    margin-left: -1vw;
   }
   
   #lista_desordenada {
     margin-right: -3vw;
     margin-left: -7vw;
-    margin-block-start: 10vw;
-    padding: 15vw;
+    margin-block-start: 1vw;
+    padding: 10vw;
   }
   
   /*END IMPACTO*/
   /*REFERENCIAS SETTINGS*/
-  #Referencias {
+  #Referencias {margin-left: -2vw;
     margin-block-start: 20vw;
   }
   
@@ -170,7 +171,7 @@
     background-color: rgba(158, 158, 199, 0.65);
     padding: 6vw;
     margin-bottom: -10vw;
-    margin-left: -3vw;
+    
     margin-right: -3vw;
     font-style: italic;
     font-size: 2vw;
