@@ -1,5 +1,5 @@
 
-# Table of contents
+# Índice de contenidos
 
 - [INTERACCION PERSONA ORDENADOR](#interaccion-persona-ordenador)
   - [Introducción](#introducción)
@@ -16,6 +16,8 @@
     - [Móviles](#smartphones)
   - [Conclusiones](#conclusiones)
 
+<div class="page"/>
+
 # INTERACCION PERSONA ORDENADOR
 
 ## Introducción
@@ -28,13 +30,13 @@ Se propone como solución tres stylesheets CSS junto a un pequeño script JS cuy
 
 El primer paso a realizar ha sido realizar una modificación del documento HTML dado para por una parte validarlo y por otra parte adaptarlo de cierta forma a la plantilla que se nos proponia en el documento Word. La siguiente imagen muestra la verificación del CSS y del HTML.
 
-
 Imagen antes y después de pasar por el validador:
 
 <img src="./RES/caps/html.png"  width=58% height=50%>
 
 <img src="./RES/caps/mihtml.png" width=60% height=50%>
 
+<div class="page">
 
 Imagen de los estilos validados:
 
@@ -47,6 +49,8 @@ Además para facilitar el uso de CSS, se ha modificado ciertos IDs y añadido cl
 ## Hojas de estilos
 
 Cada una de las interfaces surge como una versión de la otra puesto que al estar destinadas para el mismo sitio web, la intención es garantizar que el usuario no sienta que las cosas han cambiado de lugar. Los cambios realizados son meramente estéticos y se puede acceder a las otras interfaces desde la propia página.
+
+Se ha tenido que modificar el documento HTML para facilitar la realización de la práctica y para obtener el diseño deseado.
 
 ### Aspectos Comunes
 
@@ -62,6 +66,8 @@ Las familias de fuentes añadidas han sido:
 > Libre Baskerville.\
 > Oswald PT Sans.\
 > Source Serif Pro.
+
+<div class="page">
 
 Los estilos aportados como solución son los siguientes:
 
@@ -110,9 +116,11 @@ A continuación se muestran extractos de las clases y los identificadores propio
     font-family: 'Bebas Neue', cursive;
     font-size: 2.75vw;
   }
-  
+```
 
-  
+<div class="page">
+
+```css
   td {
     /*DOTAR DE MAS ESPACIO ENTRE LOS ELEMENTOS DE LA TABLA*/
     padding: 4vw;
@@ -153,9 +161,12 @@ A continuación se muestran extractos de las clases y los identificadores propio
     margin-top: 2vw;
     font-size: 2vw;
   }
-  
-  
-  .subsection_text {
+```
+
+<div class="page">
+
+```css
+.subsection_text {
     overflow-x: hidden;
     padding: 10vw;
     margin-top: 2vw;
@@ -168,10 +179,10 @@ A continuación se muestran extractos de las clases y los identificadores propio
     background-size: cover;
     font-family: 'Libre Baskerville', serif;
   }
-  
-  /*END TECNOLOGIA*/
+```  
 
 Por su parte los identificadores.
+
 ```css  
   
  
@@ -206,7 +217,9 @@ Por su parte los identificadores.
   }
 ```
 
-Además el hover del enlace está configurado para ser morado con un bordeado transparente:
+<div class="page">
+
+Además el hover del enlace está configurado para ser morado con un bordeado transparente:  
 
 ```css
 color: #7a5dffba; 
@@ -222,11 +235,16 @@ A título personal es la interfaz que a diario uso en otras plataformas y la he 
 
 A continuación se muestra una herramienta [*diff*](https://www.diffnow.com/). para mostrar los cambios en el código con respecto a la plantilla por defecto.
 
-<img style="float: right" src="./RES/caps/dark (1).png" width=50% height=50%>
-<img src="./RES/caps/dark (2).png" width=50% height=50%>
-<img style="float: right" src="./RES/caps/dark (3).png" width=50% height=50%>
-<img src="./RES/caps/dark (4).png" width=50% height=50%>
-<img src="./RES/caps/dark (5).png" width=50% height=50%>
+<img src="./RES/caps/dark (1).png" width=80% height=80%>
+<img src="./RES/caps/dark (2).png" width=80% height=80%>
+
+<img src="./RES/caps/dark (3).png" width=80% height=80%>
+
+<img src="./RES/caps/dark (4).png" width=80% height=80%>
+
+<img src="./RES/caps/dark (5).png" width=80% height=80%>
+
+<div class="page"/>
 
 Las principales diferencias evidencian a la vista, se ha seleccionado como color predominante el negro, la tipografía se ha mantenido y se ha cambiado el hover a casi negro.
 
@@ -275,7 +293,11 @@ body {
     height: auto;
     font-family: 'Libre Baskerville', serif;
   }
-  th {
+```
+<div class="page">
+
+```css
+th {
     background-color: #ffffff53;
     ;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
@@ -309,22 +331,27 @@ body {
 
 Con la intención de añadir contraste se ha incorporado sombras de un pixel a esta interfaz.
 
+<div class="page">
+
 ## Light (Modo Claro)
 
 Presenta ligeras modificaciones con respecto a la anterior interfaz. Es la plantilla complementaria al modo oscuro presente en todo tipo de sitios web actuales. Predomina el color blanco en contraste con el padding oscuro en las diferentes secciones.
 
 Además, se añade un mayor sombreado a la tipografía para conseguir que la fuente destaque en la interfaz.
 
-A continuación se muestra la salida de la herramienta [*diff*](https://www.diffnow.com/).
+A continuación se muestra la salida de la herramienta [*diff*](https://www.diffnow.com/).  
 
-<img style="float: right" src="./RES/caps/light (2).png" width=50% height=50%>
-<img src="./RES/caps/light (3).png" width=50% height=50%>
-<img style="float: right" src="./RES/caps/light (4).png" width=50% height=50%>
-<img src="./RES/caps/light (5).png" width=50% height=50%>
+<img src="./RES/caps/light (2).png" width=80% height=80%>
+
+<img src="./RES/caps/light (3).png"  width=80% height=80%>
+
+<img  src="./RES/caps/light (4).png" width=80% height=80%>
+
+<img src="./RES/caps/light (5).png" width=80% height=80%>  
 
 ```css
  body {
-    background: linear-gradient(to top, #ffffffba, #a5a5a8cc), url("../bg.jpeg") repeat;
+    background: linear-gradient(to top, #ffffffba, #a5a5a8cc), url("./bg.jpeg") repeat;
     overflow-x: hidden;
   }
   
@@ -342,8 +369,12 @@ A continuación se muestra la salida de la herramienta [*diff*](https://www.diff
   a:hover:after {
     color: transparent;
   }
-  
-  
+```
+
+<div class="page">
+
+```css
+
   .section_text {
     margin-left: -3vw;
     margin-right: -3vw;
@@ -372,7 +403,11 @@ A continuación se muestra la salida de la herramienta [*diff*](https://www.diff
     text-shadow: 1px 1px 1px rgb(124, 124, 124);
     font-family: 'Libre Baskerville', serif;
   }
-  
+```
+
+<div class="page">
+
+```css
   th {
     font-size: 3vw;
     color: white;
@@ -407,7 +442,7 @@ Se ha implementado un script en JS que permite al usuario mediante selección di
 Para incorporar JavaScript a un documento HTML es necesario añadir las siguientes líneas:
 
 ```html
-<script  src="../IPO2/switcher.js"></script>
+<script  src="./IPO2/switcher.js"></script>
 ```
 
 El script original está extraido de una guía oficial de [*W3*](https://www.w3.org/TR/WCAG20-TECHS/C29.html) .
@@ -427,35 +462,63 @@ A continuación se muestran imágenes de las tres plantillas vistas desde un ord
 
 #### Modo Por Defecto
 
-<img style="float:left" src="./RES/caps/desktop (14).png" width=50% height=50%>
-<img src="./RES/caps/desktop (15).png" width=50% height=50%>
-<img src="./RES/caps/desktop (16).png" width=50% height=50%>
+<img src="./RES/caps/desktop (14).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (15).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (16).png" width=80% height=80%>
+
+<div class="page">
 
 #### Modo Oscuro
 
-<img style="float: left" src="./RES/caps/desktop (2).png" width=50% height=50%>
-<img src="./RES/caps/desktop (3).png" width=50% height=50%>
-<img style="float: left" src="./RES/caps/desktop (4).png" width=50% height=50%>
-<img src="./RES/caps/desktop (5).png" width=50% height=50%>
-<img src="./RES/caps/desktop (6).png" width=50% height=50%>
+<img src="./RES/caps/desktop (2).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (3).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (4).png" width=80% height=80%>
+
+<div class="page">
+
+<img src="./RES/caps/desktop (5).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (6).png" width=80% height=80%>
+
+<div class="page">
 
 #### Modo Light
 
-<img style="float: left" src="./RES/caps/desktop (7).png" width=50% height=50%>
-<img src="./RES/caps/desktop (8).png" width=50% height=50%>
-<img style="float: left" src="./RES/caps/desktop (9).png" width=50% height=50%>
-<img src="./RES/caps/desktop (10).png" width=50% height=50%>
-<img src="./RES/caps/desktop (11).png" width=50% height=50%>
-<img src="./RES/caps/desktop (12).png" style="float: right" width=50% height=50%>
-<img src="./RES/caps/desktop (13).png" width=50% height=50%>
+<img src="./RES/caps/desktop (7).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (8).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (9).png" width=80% height=80%>
+
+<div class="page">
+
+<img src="./RES/caps/desktop (10).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (11).png" width=80% height=80%>
+
+<img src="./RES/caps/desktop (12).png" width=80% height=80%>
+
+<div class="page">
+
+<img src="./RES/caps/desktop (13).png" width=80% height=80%>
+
+<div class="page">
 
 ### Smartphones
 
 A continuación se muestran imágenes de las tres plantillas simuladas en un dispositivo móvil:
 
-<img style="float: right" src="./RES/caps/mobile (1).png" width=50% height=50%>
-<img src="./RES/caps/mobile (2).png" width=50% height=50%>
-<img  src="./RES/caps/mobile (3).png" width=50% height=50%>
+<img style="float: right" src="./RES/caps/mobile (2).png" width=50% height=50%>
+
+<img style="float: left"  src="./RES/caps/mobile (3).png" width=50% height=50%>
+
+<div class="page">
+
+<img src="./RES/caps/mobile (1).png" width=50% height=50%>
 
 Como se puede observar, se mantiene el estilo responsive.
 
