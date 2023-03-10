@@ -16,7 +16,7 @@
   }
   
   body {
-    background: linear-gradient(to top, #ffffffba, #a5a5a8cc), url("./bg.jpeg") repeat;
+    background: linear-gradient(to top, #ffffffba, #a5a5a8cc), url("../RES/bg.jpeg") repeat;
     overflow-x: hidden;
   }
   
